@@ -40,8 +40,8 @@ public class DbConnectSample01 {
                 String name = rs.getString("Name");
                 // 取得した値を表示
                 System.out.println(name);
-            }
             
+            }
         } catch (ClassNotFoundException e) {
             System.err.println("JDBCドライバーのロードに失敗しました。");
             e.printStackTrace();
